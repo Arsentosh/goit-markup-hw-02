@@ -1,6 +1,9 @@
-/* :root {
-  --iris-color 
-} */
+:root {
+  --iris-color: #4d5ae5;
+  --navi-blue-color: #2e2f42;
+  --cloud-color: #f4f4fd;
+  --slate-color: #434455;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -17,7 +20,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--navi-blue-color);
 }
 
 .logo-part {
@@ -29,10 +32,7 @@ body {
   /* identical to box height, or 117% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  /* IRIS */
-
-  color: #4d5ae5;
+  color: var(--iris-color);
 }
 
 .list {
@@ -43,6 +43,8 @@ body {
   text-decoration: none;
 }
 
+/*-3-3-3-3-3-3-3-3-3- HEADER */
+
 .nav-item-link {
   font-family: "Roboto";
   font-style: normal;
@@ -50,16 +52,12 @@ body {
   font-size: 16px;
   line-height: 150%; /* 24/16 */
   /* identical to box height, or 150% */
-
   letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-
-  color: #2e2f42;
+  color: var(--navi-blue-color);
 }
 
 .nav-item-link:hover {
-  color: #4d5ae5;
+  color: var(--iris-color);
 }
 
 .address-link {
@@ -67,59 +65,53 @@ body {
   font-size: 16px;
   line-height: 15px;
   /* identical to box height, or 150% */
-
   letter-spacing: 0.02em;
-
-  /* SLATE */
-
-  color: #434455;
+  color: var(--slate-color);
 }
 
 .address-link:hover {
-  color: #4d5ae5;
+  color: var(--iris-color);
 }
 
+/* -1-1-1-1-1-1-1-1-1-1- HERO */
+
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--navi-blue-color);
 }
 
 .hero-title {
-  background-color: #2e2f42;
+  background-color: var(--navi-blue-color);
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 107%;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .hero-btn {
-  background: #4d5ae5;
+  background: var(--iris-color);
 }
+
+/* !_!_____OUR FEATURES */
 
 .feature-name {
   font-size: 20px;
   line-height: 12px;
   /* identical to box height, or 120% */
-
   letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-
-  color: #2e2f42;
+  color: var(--navi-blue-color);
 }
 
 .feature-description {
   font-size: 16px;
   line-height: 15px;
   /* or 150% */
-
   letter-spacing: 0.02em;
-
-  /* SLATE */
-
-  color: #434455;
+  color: var(--slate-color);
 }
+
+/*-3-3-3-3-3-3-3-3- WHAT ARE WE DOING */
 
 .eg-title {
   font-weight: 700;
@@ -128,56 +120,41 @@ body {
   /* identical to box height, or 111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
-  /* NAVY BLUE */
-
-  color: #2e2f42;
+  color: var(--navi-blue-color);
 }
+
+/* -3-3-3-3-3-3-3-3-3-OUR TAEM */
 
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 11.1px;
   /* identical to box height, or 111% */
-
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
-  /* NAVY BLUE */
-
-  color: #2e2f42;
+  color: var(--navi-blue-color);
 }
 
 .our-team-name {
   font-size: 20px;
   line-height: 12px;
   /* identical to box height, or 120% */
-
-  /* text-align: center; */
   letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-
-  color: #2e2f42;
+  color: var(--navi-blue-color);
 }
 
 .our-team-job {
   font-size: 16px;
   line-height: 15px;
   /* identical to box height, or 150% */
-
-  /* text-align: center; */
   letter-spacing: 0.02em;
-
-  /* SLATE */
-
-  color: #434455;
+  color: var(--slate-color);
 }
 
-.footer {
-  /* NAVY BLUE */
+/** ----------------------------FOOTER */
 
-  background: #2e2f42;
+.footer {
+  background: var(--navi-blue-color);
 }
 
 .logo-f {
@@ -189,10 +166,7 @@ body {
   /* identical to box height, or 117% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  /* CLOUD */
-
-  color: #f4f4fd;
+  color: var(--cloud-color);
 }
 
 .footer-title {
@@ -201,10 +175,12 @@ body {
   font-size: 16px;
   line-height: 15px;
   /* or 150% */
-
   letter-spacing: 0.02em;
+  color: var(--cloud-color);
+}
 
-  /* CLOUD */
+/* _$_$_$_$_$_$_$_$_$_$_ADDITIONAL INFO FOR PORTFOLIO */
 
-  color: #f4f4fd;
+.btn {
+  background: var(--iris-color);
 }
