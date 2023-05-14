@@ -1,4 +1,5 @@
 :root {
+  --btn-color: #404bbf;
   --iris-color: #4d5ae5;
   --navi-blue-color: #2e2f42;
   --cloud-color: #f4f4fd;
@@ -182,5 +183,21 @@ body {
 /* _$_$_$_$_$_$_$_$_$_$_ADDITIONAL INFO FOR PORTFOLIO */
 
 .btn {
-  background: var(--iris-color);
+  background: var(--btn-color);
+}
+
+.name-image {
+  font-size: 20px;
+  line-height: 12px;
+  /* identical to box height, or 120% */
+  letter-spacing: 0.02em;
+  color: var(--navi-blue-color);
+}
+
+.description-name {
+  font-size: 16px;
+  line-height: 15px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
 }
