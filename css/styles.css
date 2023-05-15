@@ -23,7 +23,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navi-blue-color);
+  color: var(--iris-color);
 }
 
 span {
