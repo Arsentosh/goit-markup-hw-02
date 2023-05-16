@@ -117,11 +117,11 @@ span {
 }
 
 .hero-btn:hover {
-  color: var(--btn-color);
+  background-color: var(--btn-color);
 }
 
 .hero-btn:focus {
-  color: var(--btn-color);
+  background-color: var(--btn-color);
 }
 
 /* !_!_____OUR FEATURES */
