@@ -230,18 +230,23 @@ span {
 
 .btn {
   font-family: "Roboto", sans-serif;
-  background: var(--btn-color);
+  background-color: var(--cloud-color);
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5em;
 /* identical to box height, or 150% */
   color: #FFFFFF;
+  letter-spacing: 0.04em;
+  color: var(--iris-color);
+  cursor: pointer;
+
 }
 
 .name-image {
+  font-weight: 500;
   font-size: 20px;
-  line-height: 12px;
+  line-height: 1.2em;
   /* identical to box height, or 120% */
   letter-spacing: 0.02em;
   color: var(--navi-blue-color);
@@ -249,7 +254,7 @@ span {
 
 .description-name {
   font-size: 16px;
-  line-height: 15em;
+  line-height: 1.5em;
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
   color: var(--slate-color);
