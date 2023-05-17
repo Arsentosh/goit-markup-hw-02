@@ -240,7 +240,16 @@ span {
   letter-spacing: 0.04em;
   color: var(--iris-color);
   cursor: pointer;
+}
 
+.btn:hover {
+  border-color: #FFFFFF;
+  border-color: #404bbf;
+}
+
+.btn:active {
+  border-color: #FFFFFF;
+  border-color: #404bbf;
 }
 
 .name-image {
