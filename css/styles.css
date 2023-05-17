@@ -174,7 +174,7 @@ span {
 }
 
 .our-team-list {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
 .our-team-name {
@@ -188,7 +188,7 @@ span {
 
 .our-team-job {
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5em;
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
   color: var(--slate-color);
