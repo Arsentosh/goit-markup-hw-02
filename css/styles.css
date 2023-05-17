@@ -247,7 +247,7 @@ span {
   background-color: #404bbf;
 }
 
-.btn:active {
+.btn:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -255,13 +255,13 @@ span {
 .name-image {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5em;
+  line-height: 1.2em;
   /* identical to box height, or 120% */
   letter-spacing: 0.02em;
   color: var(--navi-blue-color);
 }
 
-.description-name {
+.image-description {
   font-size: 16px;
   line-height: 1.5em;
   /* identical to box height, or 150% */
