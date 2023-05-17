@@ -17,7 +17,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17em;
   /* identical to box height, or 117% */
   display: flex;
   align-items: center;
@@ -31,7 +31,7 @@ span {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17em;
   /* identical to box height, or 117% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -74,7 +74,7 @@ span {
 .address-link {
   font-style: normal;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5em;
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
   color: var(--slate-color);
@@ -109,7 +109,7 @@ span {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.5em;
   letter-spacing: 0.04em;
   color: #ffffff;
   background: var(--iris-color);
@@ -117,18 +117,19 @@ span {
 }
 
 .hero-btn:hover {
-  background-color: var(--btn-color);
+  background-color: #404BBF;
 }
 
 .hero-btn:focus {
-  background-color: var(--btn-color);
+  background-color: #404BBF;
 }
 
 /* !_!_____OUR FEATURES */
 
 .feature-name {
+  font-weight: 500;
   font-size: 20px;
-  line-height: 12px;
+  line-height: 1.2em;
   /* identical to box height, or 120% */
   letter-spacing: 0.02em;
   color: var(--navi-blue-color);
@@ -136,7 +137,7 @@ span {
 
 .feature-description {
   font-size: 16px;
-  line-height: 15px;
+  line-height: 1.5em;
   /* or 150% */
   letter-spacing: 0.02em;
   color: var(--slate-color);
@@ -147,28 +148,39 @@ span {
 .eg-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 11.1px;
+  line-height: 1.11em;
   /* identical to box height, or 111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navi-blue-color);
+  text-align: center;
 }
 
 /* -3-3-3-3-3-3-3-3-3-OUR TAEM */
 
+.our-team {
+  background-color: #F4F4FD;
+}
+
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 11.1px;
+  line-height: 1.11em;
   /* identical to box height, or 111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navi-blue-color);
+  text-align: center;
+}
+
+.our-team-list {
+  background-color: #ffffff;
 }
 
 .our-team-name {
+  font-weight: 500;
   font-size: 20px;
-  line-height: 12px;
+  line-height: 1.2em;
   /* identical to box height, or 120% */
   letter-spacing: 0.02em;
   color: var(--navi-blue-color);
@@ -176,7 +188,7 @@ span {
 
 .our-team-job {
   font-size: 16px;
-  line-height: 15px;
+  line-height: 1.5px;
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
   color: var(--slate-color);
@@ -188,16 +200,20 @@ span {
   background: var(--navi-blue-color);
 }
 
-.logo-f {
-  font-family: "Raleway";
+.logo {
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 11.7px;
+  line-height: 1.17em;
   /* identical to box height, or 117% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--cloud-color);
+  color: var(--iris-color);
+}
+
+.fter {
+  color: #F4F4FD;
 }
 
 .footer-title {
