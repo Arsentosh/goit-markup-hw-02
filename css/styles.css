@@ -229,7 +229,14 @@ span {
 /* _$_$_$_$_$_$_$_$_$_$_ADDITIONAL INFO FOR PORTFOLIO */
 
 .btn {
+  font-family: "Roboto", sans-serif;
   background: var(--btn-color);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5em;
+/* identical to box height, or 150% */
+  color: #FFFFFF;
 }
 
 .name-image {
@@ -242,7 +249,7 @@ span {
 
 .description-name {
   font-size: 16px;
-  line-height: 15px;
+  line-height: 15em;
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
   color: var(--slate-color);
