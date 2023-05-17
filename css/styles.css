@@ -117,11 +117,11 @@ span {
 }
 
 .hero-btn:hover {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .hero-btn:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 /* !_!_____OUR FEATURES */
@@ -159,7 +159,7 @@ span {
 /* -3-3-3-3-3-3-3-3-3-OUR TAEM */
 
 .our-team {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .our-team-title {
@@ -174,7 +174,7 @@ span {
 }
 
 .our-team-item {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .our-team-name {
@@ -213,7 +213,7 @@ span {
 }
 
 .fter {
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
 
 .footer-title {
@@ -235,27 +235,27 @@ span {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5em;
-/* identical to box height, or 150% */
-  color: #FFFFFF;
+  /* identical to box height, or 150% */
+  color: #ffffff;
   letter-spacing: 0.04em;
   color: var(--iris-color);
   cursor: pointer;
 }
 
 .btn:hover {
-  border-color: #FFFFFF;
-  border-color: #404bbf;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .btn:active {
-  border-color: #FFFFFF;
-  border-color: #404bbf;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .name-image {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2em;
+  line-height: 1.5em;
   /* identical to box height, or 120% */
   letter-spacing: 0.02em;
   color: var(--navi-blue-color);
